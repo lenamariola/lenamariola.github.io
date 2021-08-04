@@ -1,0 +1,126 @@
+body {
+  min-width: 980px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+  padding: 0px 0px 0px 0px;
+  height: 350px;
+  z-index: 50;
+  margin-bottom: 20px;
+  width: 940px;
+}
+
+header h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-apxlign: center;
+  padding: 0px 0px 0px 0px;
+  border-bottom: 5px solid khaki;
+  width: 940px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  width: 940px;
+  float: left;
+  display: inline;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: lighter;
+  border-top: 1px solid khaki;
+  border-bottom: 1px solid khaki;
+  text-transform: lowercase;
+}
+
+table {
+  float: left;
+  width: 940px;
+}
+
+thead {
+  font-size: 30px;
+  font-weight: lighter;
+  background-color: khaki;
+  color: white;
+}
+
+tbody th {
+  font-size: 30px;
+  font-weight: lighter;
+  background-color: khaki;
+  color: white;
+  width: 300px;
+}
+
+tbody, tbody td{
+  text-transform: lowercase;
+  text-align: center;
+  border: 0.5px solid khaki;
+}
+
+.topic {
+  width: 300px;
+  display: center;
+  float: left;
+  margin: 5px;
+  padding: 5px 0px 5px 0px;
+}
+
+.topic_description {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.blank_line {
+  width: 940px;
+  border-bottom: 0.5px solid khaki; 
+  display: inherit;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.prices {
+  font-weight: bold;
+  color:rgb(221, 204, 49)
+}
+
+.image_on_the_right {
+  float: right;    
+}
+
+.image_on_the_left {
+  float: left;
+  width:inherit;
+  display: inherit;
+}
+.image_in_the_center {
+  float:inherit;
+  width:inherit;
+  display: inherit;
+}
+
+h2:hover {
+  text-indent: 10px;
+  border: 1px solid khaki;
+}
+
+td:hover {
+  font-weight: bold;
+  background-color: #f0e68c;
+}
+
+/*needed for the 12 grid layout*/
+.grid_layout_12_col {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
